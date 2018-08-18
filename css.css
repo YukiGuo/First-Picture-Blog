@@ -1,0 +1,134 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    font-size: 12px;
+    margin: auto;
+    font-family: "Microsoft YaHei", sans-serif;
+    color: gray;
+}
+#follow{
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 15px;
+    color: #212130;
+    border: solid 1px #31c27c;
+    border-radius: 5px;
+    z-index: 2;
+}
+#follow li{
+    float: right;
+    height: 30px;
+    line-height: 30px;
+}
+#follow a{
+    padding: 0 10px ;
+}
+#message{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    text-align: center;
+    display: none;
+}
+#top{
+    width: 50px;
+    height: 50px;
+    position:fixed;
+    right: 5px;
+    bottom: 100px;
+    display: none;
+    z-index: 1;
+}
+.head{
+    height:400px;
+}
+.icon{
+    width: 100px;
+    height:100px;
+    margin: auto;
+    padding:20px;
+}
+.icon img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.list{
+    width:500px;
+    height: 50px;
+    margin: auto;
+}
+.list .item{
+    list-style: none;
+    float: left;
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+}
+.intro{
+    width: 150px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+}
+.intro span {
+    width: 50px;
+    height: 50px;
+}
+.photo{
+    position: relative;
+    border-top: solid 1px #cccccc;
+    padding-top: 15px;
+}
+.photo .box{
+    display: inline-block;
+    padding: 10px;
+    float: left;
+    position: relative;
+}
+ .photo .box .span {
+     width: 165px;
+     height: 25px;
+     background-color: #212130;
+     color: #ffffff;
+     position: absolute;
+     left: 21px;
+     bottom: 25px;
+     z-index: 1;
+     display: none;
+ }
+ .photo .span .zi{
+     width: 82px;
+     text-align: center;
+     float: left;
+     line-height: 25px;
+ }
+
+.photo .box .pic{
+    padding: 10px;
+
+}
+.photo .box img {
+    width:165px;
+    height: auto;
+}
+/*   实现多栏布局CSS代码
+
+.photo {
+    column-count: 5;
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    -ms-column-count: 5;
+}
+*/
